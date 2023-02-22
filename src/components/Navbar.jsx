@@ -1,22 +1,23 @@
 import React from 'react';
+import x from './navbar.module.css';
+
 
 const Navbar =()=> {
-
     return (
-        <nav className='nav'>
-        <div>
+        <nav className={x.nav}>
+        <div className={x.item}>
           <a href='#'>Profile</a>
         </div>
-        <div>
+        <div className={x.item}>
         <a href='#'>Message</a>
         </div>
-        <div>
+        <div className={x.item}>
         <a href='#'>News</a>
         </div>
-        <div>
+        <div className={x.item}>
         <a href='#'>Music</a>
         </div>
-        <div>
+        <div className={x.item}>
         <a href='#'>Settings</a>
         </div>
       </nav>
