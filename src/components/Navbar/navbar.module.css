@@ -2,9 +2,12 @@
     grid-area: nav;
     background-color: burlywood;
   }
-  .item a {
+.item {
     color: white;
 }
 .active a{
   color: blue;
+}
+.item a:hover {
+  color: black;
 }
