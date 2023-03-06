@@ -1,13 +1,25 @@
 .nav {
     grid-area: nav;
     background-color: burlywood;
+    padding: 20px;
   }
 .item {
-    color: white;
+  color: red;
 }
-.active a{
-  color: blue;
+.item {
+    color: white;
+    margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.activeLink {
+  color: black;
 }
 .item a:hover {
   color: black;
+}
+.color {
+  color: white;
 }

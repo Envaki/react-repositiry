@@ -12,5 +12,9 @@
 
   width: 1200px;
 }
+.app-wrapper-content {
+  grid-area: content;
+  background-color: rgb(99, 169, 190);
+}
 
   
