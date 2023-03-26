@@ -13,10 +13,12 @@ const Dialogs = (props) => {
   ));
 
   let postElement = React.createRef();
+
   let addPost = () => {
-    let text = postElement.current.value;
-    alert(text);
-  };
+    let text = postElement.value;
+    console.log(text)
+  }
+
 
   return (
     <div className={x.dialogs}>
